@@ -82,7 +82,7 @@ class App {
         function () {
           alert('Could not get your positionn');
         }
-      );
+      ); 
   }
   _loadMap(pos) {
     const { latitude } = pos.coords;
@@ -106,7 +106,7 @@ class App {
   _showForm(mapE) {
     this.#mapEvent = mapE;
     form.classList.remove('hidden');
-    inputDistance.focus();
+    inputDistance.focus(); 
   }
   _hideForm() {
     inputDistance.value =
@@ -132,7 +132,7 @@ class App {
     const distance = +inputDistance.value;
     const duration = +inputDuration.value;
     const { lat, lng } = this.#mapEvent.latlng;
-    let workout;
+    let workout; 
     // If activit Running create running OBJ
     if (type === 'running') {
       const cadence = +inputCadence.value;
