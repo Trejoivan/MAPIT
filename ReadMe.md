@@ -4,3 +4,5 @@
 
 - currently in progress of improving said app to save and create user profiles
 
+- instructions on website for functionality
+
