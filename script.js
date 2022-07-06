@@ -39,7 +39,7 @@ class Running extends Workout {
   }
   calcPace() {
     this.pace = this.duration / this.distance;
-  }
+  } 
 }
 class Cycling extends Workout {
   type = 'cycling';
